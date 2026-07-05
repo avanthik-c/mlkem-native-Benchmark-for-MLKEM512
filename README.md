@@ -17,7 +17,7 @@ cd mlkem-native-Benchmark-for-MLKEM512
 ```
 **2. Compiling**
 ```bash
-cd mlkem-native-Benchmark-for-MLKEM512
+cd mlkem-native
 make clean
 export CFLAGS="-DMLK_K=2"
 make build
