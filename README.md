@@ -15,7 +15,7 @@ This project requires a Linux environment with the kernel entropy pool accessibl
 git clone https://github.com/avanthik-c/mlkem-native-Benchmark-for-MLKEM512.git
 cd mlkem-native-Benchmark-for-MLKEM512
 ```
-**2. Compiling 
+**2. Compiling **
 ```bash
 cd mlkem-native-Benchmark-for-MLKEM512
 make clean
@@ -29,5 +29,5 @@ gcc -O3 -Wall -Wextra -Wno-stringop-overflow mlkem512.c -o mlkem_benchmark \
     ./mlkem-native/test/build/libmlkem512.a
 
 ```
-**3. Run
+**3. Run**
 `./mlkem_benchmark`
